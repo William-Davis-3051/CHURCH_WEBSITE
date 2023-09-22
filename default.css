@@ -1,0 +1,49 @@
+/* MAIN COLORS OF WEBSITE */
+:root{
+	--mainColor: #ffffff; /*Main Color of the Website*/
+	--secondaryColor: #9c2d27; /*Secondary Color of the Website*/
+    --thirdColor: #841f1a; /*Secondary Color of the Website*/
+	--mainText: black; /*Controls Color*/
+	--secondaryText: white;
+}
+
+html, body{
+	padding:  0;
+	margin: 0;
+}
+
+/*Transition time for color change for theme of website*/
+body *{
+	transition: 0.4s;
+}
+
+/* FONT FOR THE HEADERS */
+h1, h2, h3, h4, h5, h6, strong{
+	color: var(--mainText); /*Controls Color of Header 1(first object and we called it)*/
+	font-family: 'Raleway', sans-serif; /*Font Raleway*/
+	font-size: 500px;
+}
+
+/*Font for sub Text in the title block (under head in html)*/
+p, li, span, label, input, textarea{
+	color: var(--secondaryText);
+    font-size: 16px;
+	font-family: 'Raleway', sans-serif; /*Font Raleway*/
+}
+
+/*FONT SIZES*/
+h1 {font-size: 56px;}
+h2 {font-size: 36px;}
+h3 {font-size: 28px;}
+h4 {font-size: 24px;}
+h5 {font-size: 20px;}
+h6 {font-size: 16px;}
+
+/* ------------------------------------------------------------------------------------ */
+
+/* NAVIGATION WRAP STYLE */
+.nav-wrapper{
+    background-color: rgba(0, 0, 0, 0.4); /* COLOR OF NAV BAR*/
+    display: flex;  /* CREATES SPACE BETWEEN ITEMS ON NAVIGATION BAR */
+    padding: 10px;
+}
